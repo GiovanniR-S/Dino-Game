@@ -33,6 +33,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.pontuação, .pontos{
+    text-align: center;
+    color: #666666;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @keyframes slideRight{
     from{
         background-position: 70000%;
