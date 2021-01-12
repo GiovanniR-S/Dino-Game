@@ -7,7 +7,8 @@
 .dino{
     width: 60px;
     height: 60px;
+    background-color: green;
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     left: 20px;
 }
