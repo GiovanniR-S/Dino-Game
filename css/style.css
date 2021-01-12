@@ -40,6 +40,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.icon{
+    display: flex;
+    color: white;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 48%;
+    margin-top: 50px;
+    background-color: #666666;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
 @keyframes slideRight{
     from{
         background-position: 70000%;

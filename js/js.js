@@ -62,7 +62,7 @@ function createCactus(){
         }else if(cactusPosition > 0 && cactusPosition < 60 && position < 60){
             //Contado com o Dino
             clearInterval(leftIntervarl);
-            document.body.innerHTML = '<h1 class="gameOver">Fim de Jogo</h1>\n <h3 class = "pontuação">Pontuação: ' + pontuação +'</h3>\n <i class="fas fa-redo"></i>';
+            document.body.innerHTML = '<h1 class="gameOver">Fim de Jogo</h1>\n <h3 class = "pontuação">Pontuação: ' + pontuação +'</h3>\n <div class="icon" onclick="reset()"><i class="fas fa-redo"></i></div>';
         } else{
             cactusPosition -= 10;
             cactus.style.left = cactusPosition + "px";
@@ -71,6 +71,10 @@ function createCactus(){
 
     setTimeout(createCactus, randomTime);
 
+}
+
+function reset(){
+    return window.location.reload();
 }
 
 createCactus();
