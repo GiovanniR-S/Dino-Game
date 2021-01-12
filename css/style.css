@@ -12,7 +12,7 @@ body{
 .dino{
     width: 60px;
     height: 60px;
-    background-image: url(../imgs/dino.png);
+    background-image: url(../imgs/dino.gif);
     position: absolute;
     bottom: 0;
     left: 20px;
